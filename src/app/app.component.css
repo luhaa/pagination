@@ -1,0 +1,46 @@
+ul {
+  list-style: none;
+}
+
+.pa li {
+  float: left;
+}
+
+.more {
+  display: inline-block;
+  position: relative;
+}
+
+.pa li a,.more a {
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 20px;
+  text-decoration: none;
+  border:1px solid #ccc;
+}
+
+.more a {
+  width:40px;
+}
+
+.pa li:hover a,.active,.more:hover a {
+  background: lightblue;
+  border:1px solid lightblue;
+  color: white;
+}
+
+.more-lesson {
+  position: absolute;
+  top:50px;
+  left:0px;
+  width:200px;
+  height: 100px;
+  border:1px solid #ccc;
+}
+
+.more-lesson ul li a{
+  width:40px;
+}
